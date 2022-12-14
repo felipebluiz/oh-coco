@@ -1,0 +1,68 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 32px;
+  text-align: center;
+}
+
+.logo {
+  width: 100%;
+  max-width: 15em;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.social a {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  color: #FFFFFF;
+  text-decoration: none;
+  transition: opacity 0.2s ease 0s;
+}
+
+.social a:hover {
+  opacity: 0.85;
+}
+
+.social a, svg {
+  font-size: 2rem;
+}
+
+.social a svg {
+  color: #000000;
+}
+
+.social a .whatsapp {
+  margin-top: -2px;
+}
+
+@media screen and (min-width: 768px) {
+  .logo {
+    max-width: 23em;
+  }
+
+  .social {
+    flex-direction: row;
+    gap: 30px;
+    margin-top: 50px;
+  }
+
+  .social a, svg {
+    font-size: 2.4rem;
+  }
+
+  .social a .instagram {
+    margin-top: -2px;
+  }
+  
+  .social a .whatsapp {
+    margin-top: -5px;
+  }
+}

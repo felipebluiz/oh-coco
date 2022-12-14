@@ -1,0 +1,27 @@
+@font-face {
+  font-family: 'Fresh Fruit';
+  font-style: normal;
+  src: local('Fresh Fruit'), url(./fonts/FreshFruit.ttf) format('truetype');
+}
+
+:root {
+  background-color: #57b332;
+  color: #FFFFFF;
+  font-family: Fresh Fruit, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-height: 100vh;
+}
