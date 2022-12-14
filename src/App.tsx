@@ -1,6 +1,9 @@
 import { InstagramLogo, WhatsappLogo } from 'phosphor-react'
+import ReactGA from 'react-ga4';
 
 import './App.css'
+
+ReactGA.initialize('G-BJT71Q4PKH');
 
 function App() {
   return (

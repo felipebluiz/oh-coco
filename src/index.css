@@ -2,6 +2,7 @@
   font-family: 'Fresh Fruit';
   font-style: normal;
   src: local('Fresh Fruit'), url(./fonts/FreshFruit.ttf) format('truetype');
+  src: local('Fresh Fruit'), url(./fonts/FreshFruit.otf) format('opentype');
 }
 
 :root {
